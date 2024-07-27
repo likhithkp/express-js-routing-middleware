@@ -5,6 +5,9 @@
   "repository": "git@github.com:likhithkp/express-js-routing-middleware.git",
   "author": "likhithkp <likhithkpdev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "local" : "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "nodemon": "^3.1.4"
