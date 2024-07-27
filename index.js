@@ -39,11 +39,16 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-    res.send("Hello").status(200)
+    res.send("Hello").status(200);
 });
 
-app.get("/profile", (req, res) => {
-    res.send("profile page").status(200)
+app.get("/profile", (req, res, next) => {
+    return next(new Error("Error please try later"));
+});
+
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong')
 });
 
 // Start the server and keep it running at any port.
