@@ -31,11 +31,11 @@ Express.js is a minimal and flexible Node.js web application framework that prov
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd NPM-Basics-and-Advanced-Features
+   cd express-js-routing-middleware
    ```
 3. **Install the necessary dependencies:**
    ```sh
-   npm install
+   yarn
    ```
 
 ## Usage
