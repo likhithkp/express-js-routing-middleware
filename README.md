@@ -47,3 +47,4 @@ Explore the different branches and directories to find examples and tutorials on
 Contributions are welcome! If you have any improvements, bug fixes, or additional features to add, feel free to open a pull request.
 
 ## License
+This project is licensed under the MIT License.
